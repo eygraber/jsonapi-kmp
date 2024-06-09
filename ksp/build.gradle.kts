@@ -5,7 +5,7 @@ plugins {
 }
 
 dependencies {
-  implementation(projects.annotations)
+  implementation(projects.runtime)
 
   implementation(libs.kotlinPoet.ksp)
   implementation(libs.kotlinx.serialization.core)

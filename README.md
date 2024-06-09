@@ -1,6 +1,6 @@
 # JSON:API KMP
 
-Bidirectional mapping of [JSON:API](https://jsonapi.org) to POKOs.
+Bidirectional mapping of [JSON:API](https://jsonapi.org) and POKOs.
 
 You can use this library with all targets supported by [kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization).
 
@@ -12,6 +12,6 @@ repositories {
 }
 
 dependencies {
-  implementation("com.eygraber:jsonapi-kmp:0.0.1")
+  implementation("com.eygraber:json-api-kmp:0.0.1")
 }
 ```

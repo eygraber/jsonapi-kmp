@@ -49,11 +49,11 @@ plugins {
   id("com.gradle.develocity") version "3.17.4"
 }
 
-rootProject.name = "jsonapi-kmp"
+rootProject.name = "json-api-kmp"
 
-include(":annotations")
-include(":core")
 include(":ksp")
+include(":runtime")
+include(":sample")
 
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
